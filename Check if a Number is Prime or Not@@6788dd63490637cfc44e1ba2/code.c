@@ -7,10 +7,6 @@ int main(){
         printf("Prime");
         break;
     }
-    if(a == 1){
-        printf("Not Prime");
-        break;
-    }
     for(int i = 2;i<a;i++){
         if(a%i == 0){
             n+=1;
