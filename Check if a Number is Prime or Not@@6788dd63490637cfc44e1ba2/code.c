@@ -5,9 +5,11 @@ int main(){
     int n = 0;
     if(a == 2){
         printf("Prime");
+        break;
     }
     if(a == 1){
         printf("Not Prime");
+        break;
     }
     for(int i = 2;i<a;i++){
         if(a%i == 0){
