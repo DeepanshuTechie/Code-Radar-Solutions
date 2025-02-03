@@ -6,7 +6,6 @@ int main(){
     int len = strlen(ch);
     if(len == 1){
         printf("Yes");
-        break;
     }
     for(int i = 0;i<len/2;i++){
         if(ch[i] != ch[len-i-1]){
