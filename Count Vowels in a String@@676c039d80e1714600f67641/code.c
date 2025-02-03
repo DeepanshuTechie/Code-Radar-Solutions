@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<string.h>
 int main(){
     cha ch[30];
     int count = 0;
