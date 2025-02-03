@@ -3,7 +3,12 @@
 int main(){
     char ch[20];
     fgets(ch,100;stdin);
-    int len = strlen(ch);
-    printf("%d",len);
+    int count = 0;
+    int i = 0;
+    while(ch[i] != '/0'){
+        count ++;
+        i++;
+    }
+    printf("%d",count);
     return 0;
 }
