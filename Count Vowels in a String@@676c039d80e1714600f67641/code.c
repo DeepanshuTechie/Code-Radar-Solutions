@@ -5,8 +5,9 @@ int main(){
     char ch[30];
     int count = 0;
     scanf("%s",&ch);
-    int len = strlen(ch).tolower();
+    int len = strlen(ch);
     for(int i = 0;i<len;i++){
+        ch[i] = tolower(ch[i]);
         if(ch[i] == 'a' ||ch[i] == 'e'|| ch[i] == 'i'|| ch[i] == 'o'|| ch[i] == 'u' ){
             count +=1;
         }
