@@ -8,7 +8,7 @@ int main(){
         if(ch[i] == 'a' ||ch[i] == 'e'|| ch[i] == 'i'|| ch[i] == 'o'|| ch[i] == 'u' ){
             count +=1;
         }
-        printf("%d",count);
     }
+        printf("%d",count);
     return 0;
 }
