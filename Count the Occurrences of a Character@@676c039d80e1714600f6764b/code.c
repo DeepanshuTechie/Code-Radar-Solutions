@@ -6,7 +6,7 @@ int main(){
     int count = 0;
     scanf("%s",&ch);
     printf("\n");
-    scanf("%c",&c);
+    scanf(" %c",&c);
     int len = strlen(ch);
     for(int i = 0;i<len;i++){
         if(ch[i] == c){
