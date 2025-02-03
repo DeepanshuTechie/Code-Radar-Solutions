@@ -4,7 +4,7 @@ int main(){
     char ch[15];
     char c;
     int count = 0;
-    scanf("%s",&ch);
+    scanf("%s",ch);
     printf("\n");
     scanf(" %c",&c);
     int len = strlen(ch);
