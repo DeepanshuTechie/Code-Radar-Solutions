@@ -5,11 +5,11 @@ int main(){
     scanf("%s",&ch);
     int len = strlen(ch);
     for(int i = 0;i<len/2;i++){
-        if(ch[i] == ch[l-i-1]){
-            printf("Yes");
+        if(ch[i] != ch[l-i-1]){
+            printf("No");
         }
         else{
-            printf("No");
+            printf("Yes");
         }
     }
     return 0;
