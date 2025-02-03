@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int main(){
-    char ch[30];
+    char ch[30].lower();
     int count = 0;
     scanf("%s",&ch);
     int len = strlen(ch);
