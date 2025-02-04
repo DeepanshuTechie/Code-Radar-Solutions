@@ -17,7 +17,7 @@ int main(){
             
         }
     }
-    if(ispal){
+    if(ispal == true){
         printf("Yes");
     }
     else{
