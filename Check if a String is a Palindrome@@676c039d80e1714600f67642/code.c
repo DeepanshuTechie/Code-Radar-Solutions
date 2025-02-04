@@ -8,6 +8,7 @@ int main(){
     int len = strlen(ch);
     if(len == 1){
         printf("True");
+        break;
     }
     for(int i = 0;i<len/2;i++){
         if(ch[i] != ch[len-i-1]){
@@ -16,7 +17,7 @@ int main(){
             
         }
     }
-    if(ispal  = true){
+    if(ispal){
         printf("Yes");
     }
     else{
