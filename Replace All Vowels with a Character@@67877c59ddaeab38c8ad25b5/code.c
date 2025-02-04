@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<steing.h>
+#include<string.h>
 int main(){
     char ch[10];
     scanf("%s",ch);
