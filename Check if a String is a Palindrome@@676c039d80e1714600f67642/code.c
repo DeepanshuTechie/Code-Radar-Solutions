@@ -14,10 +14,9 @@ int main(){
         if(ch[i] != ch[len-i-1]){
             ispal = false;
             break;
-            
         }
     }
-    if(ispal == true){
+    if(ispal){
         printf("Yes");
     }
     else{
