@@ -17,10 +17,10 @@ int main(){
         }
     }
     if(ispal  = true){
-        printf("True");
+        printf("Yes");
     }
     else{
-        printf("False");
+        printf("No");
     }
     return 0;
 }
