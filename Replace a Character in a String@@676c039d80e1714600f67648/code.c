@@ -5,8 +5,8 @@ int main(){
     char n;
     char r;
     scanf("%s",ch);
-    scanf("%c",&n);
-    scanf("%c",&r);
+    scanf("\n%c",&n);
+    scanf("\n%c",&r);
     int len = strlen(ch);
     for(int i = 0;i<len;i++){
         if(ch[i] == n){
