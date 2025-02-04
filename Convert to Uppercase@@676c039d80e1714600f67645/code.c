@@ -5,8 +5,13 @@ int main(){
     scanf("%s",st);
     int l = strlen(st);
     for(int i= 0;i<l;i++){
-        char j = (int)st[i]  - ('a' - 'A');
-        printf("%c",j);
+        if(st[i] >= 'A' && st[i] <= 'Z'){
+            st[i] += 32;
+        }
+        else if(st[i] <= 'a' && st[i] >= 'z'){
+            st[i] -= 32;
+        }
     }
+    printf("%s",st);
     return 0;
 }
