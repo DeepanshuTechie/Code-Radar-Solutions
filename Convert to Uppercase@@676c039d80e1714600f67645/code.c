@@ -8,7 +8,7 @@ int main(){
         if(st[i] >= 'A' && st[i] <= 'Z'){
             st[i] += 32;
         }
-        else if(st[i] <= 'a' && st[i] >= 'z'){
+        else if(st[i] >= 'a' && st[i] <= 'z'){
             st[i] -= 32;
         }
     }
