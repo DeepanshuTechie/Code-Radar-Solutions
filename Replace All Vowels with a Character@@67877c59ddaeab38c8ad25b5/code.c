@@ -9,4 +9,6 @@ int main(){
             ch[i] = '*';
         }
     }
+    printf("%s",ch);
+    return 0;
 }
