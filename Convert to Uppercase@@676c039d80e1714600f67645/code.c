@@ -5,7 +5,7 @@ int main(){
     scanf("%s",st);
     int l = strlen(st);
     for(int i= 0;i<l;i++){
-        char j = (int)st[i]  + ('a' - 'A');
+        char j = (int)st[i]  - ('a' - 'A');
         printf("%c",j);
     }
     return 0;
