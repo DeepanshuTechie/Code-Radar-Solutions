@@ -4,7 +4,7 @@ int main(){
     char ch[10];
     scanf("%s",ch);
     char k;
-    scanf("%c",&k);
+    scanf("\n%c",&k);
     int l = strlen(ch);
     for(int i = 0;i<l;i++){
         if(ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u' || ch[i] == 'A' || ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U'){
