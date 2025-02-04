@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int main(){
-    ispal = true;
+    bool ispal = true;
     char ch[20];
     scanf("%s",&ch);
     int len = strlen(ch);
