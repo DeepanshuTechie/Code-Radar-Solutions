@@ -7,7 +7,7 @@ int main(){
     scanf("%s",ch);
     int len = strlen(ch);
     if(len == 1){
-        printf("True");
+        printf("Yes");
         break;
     }
     for(int i = 0;i<len/2;i++){
