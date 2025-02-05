@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdbool.h>
 int main(){
-    bool ispal = true;
+    char ispal[20] = "true";
     char ch[20];
     scanf("%s",ch);
     int len = strlen(ch);
@@ -12,11 +12,11 @@ int main(){
     }
     for(int i = 0;i<len/2;i++){
         if(ch[i] != ch[len-i-1]){
-            ispal = false;
+            ispal = "false";
             break;
         }
     }
-    if(ispal == true){
+    if(ispal == "true"){
         printf("Yes");
     }
     else{
