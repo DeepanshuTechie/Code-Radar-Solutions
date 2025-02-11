@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include<stdbool.c>
 
-bool isprime(num);
-bool isprime(num){
+
+int isprime(num);
+int isprime(num){
     for(int i = 2;i<num;i++){
         if(num%i == 0){
             return 0;
