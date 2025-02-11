@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include<booltype.c>
 
-int prime(num);
-int prime(num){
+bool isprime(num);
+bool isprime(num){
     for(int i = 2;i<num;i++){
         if(num%i == 0){
             return true;
