@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<booltype.c>
+#include<stdbool.c>
 
 bool isprime(num);
 bool isprime(num){
