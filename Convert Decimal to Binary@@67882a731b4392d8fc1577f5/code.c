@@ -21,5 +21,3 @@ int main() {
     func(c);
     return 0;
 }
-;
-}
