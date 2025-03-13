@@ -6,7 +6,7 @@ void func(int a) {
         return;
     }
 
-    printf("Binary: ");
+    
     while (a > 0) {
         printf("%d", a % 2);  // Print the remainder directly
         a /= 2;               // Divide the number by 2
@@ -16,7 +16,7 @@ void func(int a) {
 
 int main() {
     int c;
-    printf("Enter a decimal number: ");
+
     scanf("%d", &c);
     func(c);
     return 0;
