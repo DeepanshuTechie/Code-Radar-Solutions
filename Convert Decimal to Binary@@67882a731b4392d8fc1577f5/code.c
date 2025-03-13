@@ -2,22 +2,21 @@
 
 void func(int a) {
     if (a == 0) {
-        printf("0");
+        printf('0');
         return;
     }
 
-    
+    int wo[32], index = 0;
+
+    // Convert to binary and store in array
     while (a > 0) {
-        printf("%d", a % 2);  // Print the remainder directly
-        a /= 2;               // Divide the number by 2
+        wo[index++] = a % 2;
+        a /= 2;
     }
-    printf("\n");
+
+    // Print the binary in correct order
+    for (int i = index - 1; i >= 0; i--) {
+        printf("%d", wo[i]);
+    }
 }
 
-int main() {
-    int c;
-
-    scanf("%d", &c);
-    func(c);
-    return 0;
-}
