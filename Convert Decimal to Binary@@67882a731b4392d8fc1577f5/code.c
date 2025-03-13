@@ -1,17 +1,25 @@
-#include<stdio.h>
-int func(int a){
-    int num = 0,wo[20];
-    while(a>0){
-        num = a%2;
-        wo += num;
-        a/=2;
-    }
-    printf("%d",wo);
+#include <stdio.h>
 
+void func(int a) {
+    if (a == 0) {
+        printf("0");
+        return;
+    }
+
+    printf("Binary: ");
+    while (a > 0) {
+        printf("%d", a % 2);  // Print the remainder directly
+        a /= 2;               // Divide the number by 2
+    }
+    printf("\n");
 }
 
-int main(){
+int main() {
     int c;
-    scanf("%d",&c);
+    printf("Enter a decimal number: ");
+    scanf("%d", &c);
     func(c);
+    return 0;
+}
+;
 }
