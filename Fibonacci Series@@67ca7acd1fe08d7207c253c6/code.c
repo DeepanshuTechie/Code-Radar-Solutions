@@ -1,5 +1,5 @@
 #include<stdio.h>
-int fibo(int a){
+int fibonacciSeries(int a){
     int b = 0,c = 1;
     printf("%d ",b);
     printf("%d ",c);
@@ -18,5 +18,6 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
-    fibo(n);
+    fibonacciSeries(n);
+    return 0;
 }
