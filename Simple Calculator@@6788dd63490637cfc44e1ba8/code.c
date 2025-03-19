@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &b);
 
     // Consume the newline character left in the buffer
-    getchar();
+    // getchar();
 
     // printf("Enter an operator (+, -, *, /):\n");
     scanf("%c", &c);
