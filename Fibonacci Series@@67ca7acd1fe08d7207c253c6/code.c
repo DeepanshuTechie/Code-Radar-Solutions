@@ -1,8 +1,8 @@
 #include<stdio.h>
 int fibo(int a);
     int b = 0,c = 1;
-    printf("%d",b);
-    printf("%d",c);
+    printf("%d ",b);
+    printf("%d ",c);
     for(int i = 0;i<a-2;i++){
         int d = b+c;
         printf("%d ",d);
