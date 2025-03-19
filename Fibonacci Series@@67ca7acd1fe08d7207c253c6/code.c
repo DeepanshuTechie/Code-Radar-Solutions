@@ -1,5 +1,5 @@
 #include<stdio.h>
-int fibo(int a);
+int fibo(int a){
     int b = 0,c = 1;
     printf("%d ",b);
     printf("%d ",c);
@@ -9,6 +9,7 @@ int fibo(int a);
         b = c;
         c = d;
     }
+}
 
 int main(){
     int n;
