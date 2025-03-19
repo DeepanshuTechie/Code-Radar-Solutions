@@ -7,7 +7,7 @@ int main(){
         printf("Digit");
     }
     else if(isalpha(ch)){
-       char arr[15] = [a,e,i,o,u,A,E,I,O,U];
+       char arr[15] = ['a','e','i','o','u','A','E','I','O','U'];
         for(int i = 0;i<sizeof(arr);i++){
             if(arr[i] == ch){
                 printf("Vovel");
