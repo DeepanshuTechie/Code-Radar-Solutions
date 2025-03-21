@@ -14,7 +14,7 @@ int main(){
         else{
             odd+=1;
         }
-    printf("%d %d",eve,odd);
     }
+    printf("%d %d",eve,odd);
     return 0;
 }
