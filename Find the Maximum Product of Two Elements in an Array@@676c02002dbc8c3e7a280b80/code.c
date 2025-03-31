@@ -6,7 +6,13 @@ int main(){
     for(int i = 0;i<a;i++){
         scanf("%d",&arr[i]);
     }
+    
     int min = arr[0];
+    for(int i = 0;i<a;i++){
+        if(arr[i]<0){
+            arr[i] = -arr[i];
+        }
+    }
     for(int i = 0;i<a;i++){
         for(int j = i+1;j<a;j++){
             if(arr[i]>arr[j]){
