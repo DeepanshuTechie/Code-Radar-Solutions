@@ -15,8 +15,8 @@ int main(){
             }
         }
     }
-    for(int i = 0;i<a;i++){
+    
         printf("%d",arr[1]);
-    }
+    
     return 0;
 }
