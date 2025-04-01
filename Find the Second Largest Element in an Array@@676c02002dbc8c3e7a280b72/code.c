@@ -15,7 +15,7 @@ int main(){
             }
         }
     }
-    if(arr[1] == arr[2] || arr[1] == arr[3]){
+    if(arr[1] == arr[2]){
         printf("-1");
     }
     else{
